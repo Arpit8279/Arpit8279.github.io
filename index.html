@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Email Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #5f6368;
+        }
+
+        main {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #202124;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #5f6368;
+        }
+
+        .notice {
+            background-color: #e8f0fe;
+            border-left: 4px solid #1a73e8;
+            padding: 15px 20px;
+            margin: 25px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .notice p {
+            margin: 0;
+            color: #174ea6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+            margin-top: auto;
+        }
+
+        footer nav {
+            margin-bottom: 15px;
+        }
+
+        footer a {
+            color: #1a73e8;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            font-size: 0.85rem;
+            color: #80868b;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            main {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            footer a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OTP Email Service</h1>
+            <p class="tagline">Secure One-Time Password Delivery via Email</p>
+        </header>
+
+        <main>
+            <h2>About This Service</h2>
+            <p>
+                OTP Email Service is a backend authentication service that sends one-time password (OTP) 
+                emails to users for secure verification purposes. The service utilizes the Gmail API 
+                to deliver authentication codes reliably and securely.
+            </p>
+
+            <h2>How It Works</h2>
+            <p>
+                When a user requests authentication, this service generates a secure one-time password 
+                and delivers it via email using Google's Gmail API. This ensures that verification 
+                codes reach users quickly and securely through trusted email infrastructure.
+            </p>
+
+            <div class="notice">
+                <p>
+                    <strong>Note:</strong> This is a backend service intended for internal use only. 
+                    It is not a public consumer product and is designed for single-user or limited 
+                    internal applications.
+                </p>
+            </div>
+
+            <h2>Google OAuth Integration</h2>
+            <p>
+                This service uses Google OAuth 2.0 to authenticate and send emails through the Gmail API. 
+                Only the minimum required permissions (gmail.send scope) are requested to perform 
+                email delivery functions. No email content is read, stored, or shared.
+            </p>
+        </main>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </nav>
+        <p class="copyright">&copy; 2026 OTP Email Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
