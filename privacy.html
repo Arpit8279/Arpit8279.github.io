@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - OTP Email Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            flex: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #80868b;
+        }
+
+        main {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #202124;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #5f6368;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+            color: #5f6368;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: #e8f0fe;
+            border-left: 4px solid #1a73e8;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .highlight p {
+            margin: 0;
+            color: #174ea6;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+            margin-top: auto;
+        }
+
+        footer nav {
+            margin-bottom: 15px;
+        }
+
+        footer a {
+            color: #1a73e8;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            font-size: 0.85rem;
+            color: #80868b;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            main {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            footer a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: January 12, 2026</p>
+        </header>
+
+        <main>
+            <p>
+                This Privacy Policy describes how OTP Email Service ("we," "our," or "the Service") 
+                handles information when you use our email delivery service. We are committed to 
+                protecting your privacy and being transparent about our practices.
+            </p>
+
+            <h2>Information Collected</h2>
+            <p>
+                OTP Email Service collects and processes only the minimum information necessary 
+                to deliver one-time password emails:
+            </p>
+            <ul>
+                <li><strong>Recipient Email Address:</strong> The email address to which the OTP is sent</li>
+                <li><strong>OAuth Authentication Token:</strong> Used to authenticate with Google Gmail API</li>
+            </ul>
+            <div class="highlight">
+                <p>
+                    <strong>Important:</strong> We do not read, store, or access the content of any emails 
+                    in your Gmail account. Our service only sends outgoing emails containing OTP codes.
+                </p>
+            </div>
+
+            <h2>How Information Is Used</h2>
+            <p>The information collected is used solely for the following purposes:</p>
+            <ul>
+                <li>Sending one-time password emails for authentication purposes</li>
+                <li>Authenticating with Google's Gmail API to enable email delivery</li>
+                <li>Maintaining service functionality and reliability</li>
+            </ul>
+            <p>
+                We do not use your information for marketing, profiling, or any purpose other than 
+                delivering OTP emails as requested.
+            </p>
+
+            <h2>Data Storage and Retention</h2>
+            <p>
+                OTP Email Service is designed with privacy in mind:
+            </p>
+            <ul>
+                <li>No personal data is permanently stored by our service</li>
+                <li>Email addresses are processed in real-time and not retained after delivery</li>
+                <li>OAuth tokens are stored securely and used only for Gmail API authentication</li>
+                <li>No email content or user data is logged or archived</li>
+            </ul>
+
+            <h2>Data Security</h2>
+            <p>
+                We implement appropriate security measures to protect information during processing:
+            </p>
+            <ul>
+                <li>Secure HTTPS connections for all communications</li>
+                <li>OAuth 2.0 authentication for Gmail API access</li>
+                <li>Minimal data collection principle - we only request the gmail.send scope</li>
+                <li>No storage of sensitive personal information</li>
+            </ul>
+
+            <h2>Third-Party Services</h2>
+            <p>
+                OTP Email Service uses the following third-party service:
+            </p>
+            <p>
+                <strong>Google Gmail API:</strong> We use Google's Gmail API to send emails. This requires 
+                OAuth 2.0 authentication with the <code>gmail.send</code> scope, which only allows sending 
+                emails on your behalf. We cannot read, modify, or delete any emails in your account.
+            </p>
+            <p>
+                Your use of Google services is subject to 
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+            </p>
+
+            <h2>Data Sharing</h2>
+            <p>
+                We do not sell, trade, or share your personal information with third parties except:
+            </p>
+            <ul>
+                <li>As required to use Google Gmail API for email delivery</li>
+                <li>If required by law or legal process</li>
+            </ul>
+
+            <h2>Your Rights</h2>
+            <p>
+                You have the right to:
+            </p>
+            <ul>
+                <li>Revoke OAuth access at any time through your Google Account settings</li>
+                <li>Request information about how your data is processed</li>
+                <li>Contact us with any privacy-related questions or concerns</li>
+            </ul>
+
+            <h2>Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. Any changes will be posted on this 
+                page with an updated revision date. We encourage you to review this policy periodically.
+            </p>
+
+            <h2>Contact Information</h2>
+            <p>
+                If you have any questions about this Privacy Policy or our data practices, please contact us:
+            </p>
+            <div class="contact-info">
+                <p><strong>OTP Email Service</strong></p>
+                <p>Email: hrsenterprises89@gmail.com</p>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </nav>
+        <p class="copyright">&copy; 2026 OTP Email Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
